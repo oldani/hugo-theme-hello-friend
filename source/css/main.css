@@ -9,6 +9,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
@@ -233,6 +236,7 @@ ol ol {
 .container {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
   text-align: center;
 }
